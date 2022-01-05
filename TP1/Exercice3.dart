@@ -1,0 +1,1 @@
+/* Écrire une fonction qui permet de connaître la taille d'un tableau à partir de la plage d'indices valides*/  
