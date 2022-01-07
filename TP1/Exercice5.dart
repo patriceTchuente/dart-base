@@ -5,7 +5,8 @@ le dernier indice qui doit être copié et le premier indice où insérer des do
 
 void main(List<String> args) {
   //test
-  
+  List tab = [12, 10, 3, 45, 65, 89], tab2 = [234, 456, 765, 587, 231, 980];
+  print(copyTab(tab, tab2, 6, 2, 5, 2));
 }
 
 List copyTab(
