@@ -6,12 +6,17 @@ dont chaque élément est un tableau de dimension n.
 On peut donc déclarer la matrice sous la forme suivante  */
 
 void main(List<String> args) {
+  // declaration de matrice
   Matrice mat = new Matrice(3, 3);
   Matrice mat1 = new Matrice(3, 3);
   Matrice matSol = new Matrice(3, 3);
 
+  // remplissage de de matrice
+
   mat.remplirMatrice(mat, 3, 3, [1, 1, 1, 1, 1, 1, 1, 1, 1]);
   mat1.remplirMatrice(mat1, 3, 3, [1, 1, 1, 1, 1, 1, 1, 1, 1]);
+
+  // somme matrice
   matSol = matSol.sommeMatrice(mat, mat1);
   print(matSol.getTab);
 }

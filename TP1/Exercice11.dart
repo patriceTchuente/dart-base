@@ -2,7 +2,6 @@
 La fonction prend en entrée deux tableaux non triés, leur longueur respective, 
 elle renvoie un tableau trié contenant les éléments des deux tableaux en entrée.
 
-L'algorithme doit avoir la meilleure complexité possible.
  */
 
 void main(List<String> args) {
