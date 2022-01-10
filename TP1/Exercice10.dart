@@ -14,11 +14,11 @@ void main(List<String> args) {
   print(r);
 }
 
-List fusionTab(List<int> tab1, int taille1, List<int> tab2, int taille2) {
-  List<int> tabResult = tab1;
-  for (var elt in tab2) {
+List fusionTab(List tab1, int taille1, List tab2, int taille2) {
+  List tabResult = tab1;
+  for (int elt in tab2) {
     tabResult.add(elt);
   }
-
-  return tabResult.sort();
+  tabResult.sort();
+  return tabResult;
 }
